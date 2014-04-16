@@ -2,10 +2,29 @@
 h2, h3, p {
 	margin: 0;
 }
+h1,h2,h3 {
+	font-family: "Droid Serif";
+	color: #7C7159;
+}
+h2 {
+	color: #086B63;
+}
+p, em {
+	font-family: "Maven Pro";
+	font-size: 17px;
+}
+
 
 /* Layout for Style Tile*/
 section {
 	margin: 20px 0;
+}
+a{
+	color: #086B63;
+	text-decoration: none;
+}
+a:hover {
+	color: #9ad5ba;
 }
 
 .color-1,
@@ -19,6 +38,34 @@ section {
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
+}
+.color-1 {
+	background: #086B63;
+
+}
+.color-2 {
+	background: #7C7159;
+}
+.color-3 {
+	background: #77A490;
+}
+.pattern-1 {
+	background: url("../img/arches.png");
+}
+.pattern-2 {
+	background: url("../img/45degreee_fabric.png");
+}
+.pattern-3 {
+	background: url("../img/green_cup.png");
+}
+.logo {
+	width: 300px;
+	display: inline;
+}
+
+.header {
+	
+	text-align: center;
 }
 
 
